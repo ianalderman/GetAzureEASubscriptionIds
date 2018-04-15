@@ -13,8 +13,8 @@ A key building block in some Governance projects I have been looking at requires
 In order to call get the list of Subscriptiong GUIDs you will need to call the function with the following JSON body:
 
 {
-    "enrollmentNumber": "<YOUR ENROLLMENT NUMBER>",
-    "accessKey": "<YOUR API ACCESS KEY>"
+    "enrollmentNumber": "YOUR ENROLLMENT NUMBER",
+    "accessKey": "YOUR API ACCESS KEY"
 }
 
 N.B. This only returns a list of current IDs you would need to build on this to track new subscriptions, deleted ones etc.
